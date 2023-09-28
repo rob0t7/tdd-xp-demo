@@ -1,56 +1,28 @@
-## My Take
+# My Take On Extreme Programming
 
-1. I like agile. It helps me ship software quicker if done _RIGHT_.
+![alt Agile Book](./images/xp-book.jpg)
+
+## I like agile. It helps me ship software quicker if done _RIGHT_.
 
 ![alt Agile manifesto](./images/agile_manifesto.jpeg)
 
-2. Out of all the agile process I like XP the best
+## Out of all the agile process I like XP the best
 
 ![alt XP Flow](./images/Extreme_Programming_loops.svg)
 
-3. I practice TDD and BDD
+## I practice TDD
 
 ![alt BDD Flowchart](./images/bdd-practices-diagram.png)
 
+## ... and BDD
+
 ![alt TDD Flow](./images/tdd_flow.jpeg)
 
-2. There is a difference between Deploy and Released.
+## There is a difference between Deploy and Released.
+
+I optimize getting real feedback so I can learn if I am building the **right** thing. This sometimes means differing sad path (and edges cases) to the future. Just remember...
 
 ![alt Deployed != Released](./images/deploy_vs_released.png)
-
-### I apply architecture when I need it
-
-Simple
-![alt Layered Architecture](./images/layered-architecture.svg)
-
-More Complex Layered
-![alt Layered Example](./images/layered-architecture-complex.svg)
-
-Hexagonal (Ports & Adapters / Clean)
-![alt Hexagonal Architecture](./images/hexagonal-architecture-external-dependencies.svg)
-
-Hexagonal Flow
-![alt Hexagonal Flow](./images/hexagonal-architecture-flow-of-control.svg)
-
-![alt Hex Adapters](./images/hexagonal-architecture-primary-and-secondary-adapters.svg)
-
-A typical mistake is that we write the use cases with knowledge about particular technologies. Such use cases are not speaking business language, become coupled with technologies used and are harder to maintain.
-
-![alt Primary Adapters](./images/hexagonal-architecture-primary-adapter.svg)
-
-![alt Secondary Adapters](./images/hexagonal-architecture-secondary-adapter.svg)
-
-Testing business Logic (Unit Test)
-![alt Testing Business Logic](./images/hexagonal-architecture-unit-test.svg)
-
-Test Primary Adapters
-![alt Testing Primary Adapters](./images/hexagonal-architecture-primary-adapter-integration-test.svg)
-
-Test Secondary Adapters
-![alt Testing Secondary Adapters](./images/hexagonal-architecture-secondary-adapter-integration-test.svg)
-
-Testing End to End
-![alt Testing End To End](./images/hexagonal-architecture-end-to-end-test.svg)
 
 ---
 
