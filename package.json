@@ -1,0 +1,51 @@
+{
+  "name": "tdd-xp-demo",
+  "version": "1.0.0",
+  "description": "A Demo around XP practices",
+  "scripts": {
+    "start": "nodemon ./src/index.ts",
+    "lint": "npx eslint .",
+    "prisma:migrate": "npx prisma migrate dev",
+    "prisma:generate": "npx prisma generate",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rob0t7/tdd-xp-demo.git"
+  },
+  "keywords": [
+    "Agile",
+    "Extreme",
+    "Programming",
+    "TDD",
+    "BDD"
+  ],
+  "author": "Robert Jackiewicz <rob@jackiewicz.ca>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rob0t7/torontojs-demo/issues"
+  },
+  "homepage": "https://github.com/rob0t7/torontojs-demo#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.7.1",
+    "@types/supertest": "^2.0.13",
+    "@types/uuid": "^9.0.4",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  }
+}
